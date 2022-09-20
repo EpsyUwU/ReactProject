@@ -1,10 +1,10 @@
 
 
-function Card(props){
+function Card({name, lastName}){
 
     return(
         <div className="containerContact-card">
-            {props.name} {props.lastName}
+            {name} {lastName}
         </div>
     )
 }
