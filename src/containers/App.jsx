@@ -1,13 +1,13 @@
-import Contacto from "../components/Contacto";
-import Header from '../components/Header'
-import Footer from '../components/Footer'
+import Layaout from "./Layout";
+import Login from './Login';
+import Contacto from '../components/Contacto';
 
 function App() {
     return (
         <>
-            <Header></Header>
-            <Contacto></Contacto>
-            <Footer></Footer>
+            <Layaout>
+                <Contacto></Contacto>   
+            </Layaout> 
         </>
     );
 }
