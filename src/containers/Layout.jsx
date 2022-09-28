@@ -8,7 +8,7 @@ function Layaout({children}) {
             {children}
             <Footer></Footer>
         </>
-      );
+    );
 }
 
 export default Layaout;

@@ -1,0 +1,45 @@
+footer{
+    background-color: peru;
+}
+footer img {
+    padding : 20px;
+    width: 20%;
+    order: 1;
+}
+
+.facebook{
+    max-width: 40px;
+    max-height: 40px;
+    margin-bottom: 20px;
+}
+
+.instagram{
+    max-width: 40px;
+    max-height: 40px;
+    margin-bottom: 20px;
+}
+
+.youtube{
+    max-width: 40px;
+    max-height: 40px;
+    margin-bottom: 20px;
+}
+
+.foot{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    justify-items: flex-end;
+}
+
+.redes{
+
+    height: 50%;
+    order: 1; 
+    align-self: flex-end;
+}
+
+.derechos{
+    font-size: 20px;
+    align-self: flex-end;
+}

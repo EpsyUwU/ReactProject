@@ -1,12 +1,11 @@
 import Layaout from "./Layout";
-import Login from './Login';
-import Contacto from '../components/Contacto';
+import Secciones from '../containers/Secciones';
 
 function App() {
     return (
         <>
             <Layaout>
-                <Contacto></Contacto>   
+                <Secciones></Secciones>   
             </Layaout> 
         </>
     );

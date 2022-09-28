@@ -1,13 +1,12 @@
-import logoApp from '../assets/imgs/microsoft.svg'
+import logoApp from '../assets/imgs/encabezadoSVG.svg'
 import '../assets/styles/header.css'
 
 function Header() {
     return (
-        <header>
+        <header> 
             <img src={logoApp} alt="Logo oficial del sitio" />
-            <span>Titulo</span>
         </header>
-      );
+    );
 }
 
 export default Header;

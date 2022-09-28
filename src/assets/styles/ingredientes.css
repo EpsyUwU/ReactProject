@@ -1,0 +1,24 @@
+.PadreIng{
+	display: flex;
+}
+
+.BordeIng{
+	border-top:solid black 1px;
+	padding-left: 5%;
+}
+
+.Ingredientes{
+	padding-left: 4%;
+	color: rgb(92, 109, 125);
+	font-style: italic;
+	font-size: 10px;
+	width: 45%;
+	height: 30%;
+}
+
+
+.ImgI{
+	position: absolute;
+	max-width: 40%;
+	padding-bottom: 50px;
+}
